@@ -1,0 +1,26 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Aug 06, 2018 2:06:22 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/cassioimamura/Public/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/cassioimamura/Documents/PracticalStudies/Udacity/project3-gradle/ud867/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Aug 06, 2018 2:06:22 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Aug 06, 2018 5:06:23 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/cassioimamura/Documents/PracticalStudies/Udacity/project3-gradle/ud867/FinalProject) is not equal to your 
+web application root (/Users/cassioimamura/Documents/PracticalStudies/Udacity/project3-gradle/ud867/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Aug 06, 2018 5:06:24 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Aug 06, 2018 5:06:27 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+Aug 06, 2018 5:06:27 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Aug 06, 2018 5:06:27 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Aug 06, 2018 2:06:28 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Aug 06, 2018 2:07:30 PM com.google.appengine.tools.development.AbstractModule shutdown
+Shutting down.
+INFO: Shutting down module instance default
+Aug 06, 2018 2:07:30 PM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+INFO: scheduler shutting down.
